@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+header {
+  padding: 2rem;
+  text-align: center;
+  background: #1a1a1a;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+p.subtitle {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.socials a {
+  color: #61dafb;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+}
