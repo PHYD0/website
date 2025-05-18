@@ -1,35 +1,64 @@
-body {
+:root {
+  --primary: #1e40af;
+  --accent: #2563eb;
+  --background: #f9fafb;
+  --text: #111827;
+}
+
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f0f0f;
-  color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
 header {
-  padding: 2rem;
   text-align: center;
-  background: #1a1a1a;
+  margin-bottom: 3rem;
 }
+
+.logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--primary);
 }
-p.subtitle {
-  font-size: 1.2rem;
-  color: #ccc;
-}
-section {
-  padding: 2rem;
+
+main {
   max-width: 800px;
   margin: 0 auto;
 }
-.socials a {
-  color: #61dafb;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  font-size: 1.2rem;
+
+section {
+  margin-bottom: 2rem;
 }
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
 footer {
   text-align: center;
-  padding: 1rem;
-  color: #666;
+  font-size: 0.875rem;
+  color: #555;
+  margin-top: 3rem;
 }
